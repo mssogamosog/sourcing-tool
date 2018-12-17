@@ -1,0 +1,12 @@
+source https://api.nuget.org/v3/index.json
+
+nuget FSharp.Core
+nuget Saturn
+nuget Simple.Migrations
+
+clitool dotnet-saturn
+
+group Build
+  source https://api.nuget.org/v3/index.json
+
+  nuget FAKE
